@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    background-color: #f3f3f3;
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 3.4rem;
+    position: relative;
+    bottom: 200px;
+    text-decoration: underline;
+}
+
+.container {
+    background-color: #e4e2e2;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    padding: 20px;
+    width: 100%;
+    margin-left: 8%;
+    position: relative;
+    bottom: 10px;
+    left: 50px;
+}
+
+.todo-app {
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: gray;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 i {
+    margin-left: 13px;
+}
+
+.row {
+    display: flex;
+    justify-content: space between;
+    margin-bottom: 20px;
+    align-items: center;
+    background: #f7f7f7;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #bbb53d;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #bbb53d;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li input[type="checkbox"] {
+    display: none;
+}
+
+li label {
+    cursor: pointer;
+    flex: 1;
+    color: #333;
+}
+
+li label.checked {
+    text-decoration: line-through;
+    color: #888;
+}
+
+li button {
+    background-color: #ff5757;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+li button:hover {
+    background-color: #ff4242;
+}
+
+.motivation {
+    color: gray;
+    font-size: 4.5rem;
+    max-width: 600px;
+    width: 100%;
+    line-height: 1.5;
+    position: absolute;
+    left: 800px;
+    text-align: left;
+    margin-top: 7%;
+}
